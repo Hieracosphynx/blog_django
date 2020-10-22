@@ -1,3 +1,40 @@
-h3 a, h2 a{
+/*h3 a, h2 a{
     color: #FF8833;
+}*/
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header a{
+    font-size: 40pt;
+    color: white;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.post{
+    margin-bottom: 70px;
+}
+
+.content{
+    margin-left: 10px;
+}
+
+.date{
+    color: #828282;
+}
+
+
+
+.post h2 a, .post h2 a:visited{
+    color: #000000;
 }
