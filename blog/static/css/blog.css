@@ -3,6 +3,16 @@ body{
     margin: 0%;
 }
 
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container{
+    margin-left: 1%;
+}
+
 .header{
     background-color: cadetblue;
     display: flex;
@@ -19,6 +29,7 @@ body{
 
 .post{
     margin-bottom: 70px;
+    margin-left: 20px;
 }
 
 .content{
@@ -28,7 +39,6 @@ body{
 .date{
     color: #828282;
 }
-
 
 
 .post h2 a, .post h2 a:visited{

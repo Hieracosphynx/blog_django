@@ -8,11 +8,11 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
 </head>
 <body>
-    <div class="header pb-2 mb-2 border-bottom">
-        <h3><a href="/">Community Blog</a></h3>
+    {% include 'navbar.html' %}
+    <div class="flex-container">
+        {% block content %}
+            Body content
+        {% endblock %}
     </div>
-    {% block content %}
-        Body content
-    {% endblock %}
 </body>
 </html>
